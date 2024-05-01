@@ -4,8 +4,8 @@ error_reporting(~0);
 
 include_once("Model/Template.class.php");
 include_once("Model/DB.class.php");
-include_once("Controller/Member.controller.php");
+include_once("Controller/Position.controller.php");
 
-$member = new MemberController();
+$position = new PositionController();
 
-$member->index();
+$position->index();

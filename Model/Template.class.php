@@ -41,6 +41,11 @@ class Template {
         else {
             $value = $new;
         }
+
+        if ($value == NULL) {
+            $value = '';
+        }
+        
         $this->content = preg_replace("/$old/", $value, $this->content);
     }
 }

@@ -1,6 +1,7 @@
 <?php
 include_once("config.php");
 include_once("Model/Member.class.php");
+include_once("Model/Position.class.php");
 include_once("View/Member.view.php");
 
 class MemberController {
